@@ -17,7 +17,11 @@ public class Principal {
         turmaB.alunos[1] = aluno1;
 
         for (int i = 0; i < turmaB.alunos.length; i++) {
-            System.out.printf("%d - %s (%d anos)%n", i, turmaB.alunos[i].nome, turmaB.alunos[i].idade);
+            if (turmaB.alunos[i] != null) {
+                System.out.printf("%d - %s (%d anos)%n", i, turmaB.alunos[i].nome, turmaB.alunos[i].idade);
+            }else {
+                System.out.printf("%d Vago", i);
+            }
         }
 
     }
