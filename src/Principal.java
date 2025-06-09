@@ -23,6 +23,5 @@ public class Principal {
                 System.out.printf("%d Vago", i);
             }
         }
-
     }
 }
