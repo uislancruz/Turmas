@@ -4,17 +4,24 @@ public class Principal {
         Turma turmaB = new Turma();
         turmaB.identificacao = "Maternal B";
         turmaB.nomeProfessor = "Tia maria";
-        turmaB.alunos = new Aluno[3];
-
-        turmaB.alunos[0] = new Aluno();
-        turmaB.alunos[0].nome = "Joao";
-        turmaB.alunos[0].idade = 3;
 
         Aluno aluno1 = new Aluno();
-        aluno1.nome = "Laura";
-        aluno1.idade = 4;
+        aluno1.nome = "Joao";
+        aluno1.idade = 3;
 
-        turmaB.alunos[1] = aluno1;
+        Aluno aluno2 = new Aluno();
+        aluno2.nome = "Laura";
+        aluno2.idade = 4;
+
+        Aluno aluno3 = new Aluno();
+        aluno3.nome = "Miguel";
+        aluno3.idade = 3;
+
+        turmaB.adicionarAluno(aluno1);
+        turmaB.adicionarAluno(aluno2);
+        turmaB.adicionarAluno(aluno3);
+
+        turmaB.removerAluno(1);
 
         turmaB.imprimirListaDeAlunos();
 
