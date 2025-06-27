@@ -6,8 +6,12 @@ public class PrincipalVarargs {
 
         ServicoDeCobranca servicoDeCobranca = new ServicoDeCobranca();
 
-        String[] emailsCobranca = {"joao@gmail.com", "maria@gmail.com"};
+//        String[] emailsCobranca = {"joao@gmail.com", "maria@gmail.com"};
+//
+//        servicoDeCobranca.pagar(fatura, emailsCobranca );
 
-        servicoDeCobranca.pagar(fatura, emailsCobranca );
+        servicoDeCobranca.pagar(fatura, "joao@gmail.com");
+
+
     }
 }
