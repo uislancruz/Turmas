@@ -12,7 +12,7 @@ public class PrincipalVarargs {
 
         //servicoDeCobranca.pagar(fatura, "joao@gmail.com");
 
-        servicoDeCobranca.pagar(fatura);
+        servicoDeCobranca.pagar(fatura, "maria@mgmail.com", "joao@gmail.com");
 
 
     }
