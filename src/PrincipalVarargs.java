@@ -10,7 +10,9 @@ public class PrincipalVarargs {
 //
 //        servicoDeCobranca.pagar(fatura, emailsCobranca );
 
-        servicoDeCobranca.pagar(fatura, "joao@gmail.com");
+        //servicoDeCobranca.pagar(fatura, "joao@gmail.com");
+
+        servicoDeCobranca.pagar(fatura);
 
 
     }
